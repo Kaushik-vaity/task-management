@@ -1,0 +1,135 @@
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #F0EFEF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-add {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #133F02;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.btn-add:hover {
+    background-color: #49F605;
+    color: darkslategrey;
+}
+
+.btn-delete {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #440001;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.btn-delete:hover {
+    background-color: #FF090B;
+    color: darkslategrey;
+}
+
+.btn-edit {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #020035;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    background-color: #01B9FD;
+    color: darkslategrey;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    background-color: #AFB0B0;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task h4 {
+    margin: 0;
+}
+
+.edit-task-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-task-container-1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+select option {
+    background-color: #eee;
+    color: #333;
+    padding: 5px 10px;
+}
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container{
+        max-width: 800px;
+    }
+}
+
