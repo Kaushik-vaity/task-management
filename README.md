@@ -62,9 +62,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: [https://facebookgithub.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Below are the implemented features
+1. Task List Display: Tasks are getting added and deleted. Also all the task are being displayed with Title and Description.
+2. Task Form: To create new task there is a form with Title and Description as input fields. There is also validation for empty title and descriiption.
+3. State Management: Used useState to store list of tasks.
+4. Styling: Added CSS so that UI looks more presentable.
+5. Enhanced Task Properties: Added due-date and priority properties of the tasks. Also implemented edit task functionality.
+6. Advanced Validation: Added validation to ensure that tasks titles are unique. Also added validation to ensure that due dates are today or in the future.
+7. Task Interactions: Added a toggle to mark task as completed. Added task search functionality.
+8. Responsive Design: Made UI responsive for desktop and mobile devices.
+9. Data Persistence: Added localstorage so that data gets in browser localstorage and tasks list does not delete after page reload.
+10. Error Handling: Implemented error boundaries and display user-friendly error messages.
